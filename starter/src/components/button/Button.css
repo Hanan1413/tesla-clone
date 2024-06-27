@@ -1,0 +1,42 @@
+.btn {
+    align-items: center;
+    background-color: rgba(244, 244, 244, 0.685);
+    color: #4e4d4d;
+    block-size: 40px;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    box-shadow: inset 0 0 0 4px transparent;
+    display: inline-flex;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.2;
+    padding: 8px 24px;
+    text-align: center;
+    text-transform: inherit;
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .btn-dark {
+    background-color: rgba(23, 26, 32, 0.65);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .buttons{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+ 
+  @media (min-width:900px) {
+ 
+   .buttons{
+    flex-direction: row;
+   }
+  }
