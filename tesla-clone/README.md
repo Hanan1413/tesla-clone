@@ -17,3 +17,10 @@ This project is a clone of the Tesla website, featuring a modern mega menu and r
 - Smooth transitions and animations
 - Sidebar navigation
 - Dynamic content rendering
+
+
+## Technologies Used
+
+ReactJS
+CSS
+

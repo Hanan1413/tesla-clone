@@ -11,22 +11,26 @@ const Submenu = () => {
 
   // Creating a ref to reference the submenu container element
   const submenuContainer = useRef(null);
-
+ 
   // Function to handle mouse leave events on the submenu
   const handleMouseLeave = (event) => {
+    // obtain a reference to the actual submenu DOM element.
     const submenu = submenuContainer.current;
 
     if (submenu) {
       // Get the bounding rectangle of the submenu
       const { left, right, bottom } = submenu.getBoundingClientRect();
+
+      //  the horizontal and vertical coordinates of the mouse pointer when the event occurred.
       const { clientX, clientY } = event;
 
-      // Debugging logs to check values (optional)
+      // Debugging logs to check values 
       console.log("Bounding rectangle:", left, right, bottom);
       console.log("Mouse coordinates:", clientX, clientY);
 
       // Check if mouse is outside the submenu boundaries
       if (clientX < left - 1 || clientX > right - 1 || clientY > bottom - 1) {
+
         setPageId(null); // Hide submenu by setting pageId to null
       }
     }
@@ -34,7 +38,7 @@ const Submenu = () => {
 
   return (
     <div
-      // Conditional class based on whether currentPage is defined
+      // Conditional class based on whether currentPage is defined  
       className={currentPage ? "submenu show-submenu" : "submenu"}
       // Event handler for mouse leave on the submenu
       onMouseLeave={handleMouseLeave}

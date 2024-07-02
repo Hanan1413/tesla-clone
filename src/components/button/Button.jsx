@@ -1,20 +1,8 @@
 import React from 'react';
 import './Button.css'
 
-const Button = ({ text, backgroundColor, textColor, onClick }) => {
-  // const buttonStyle = {
-  //   backgroundColor: backgroundColor || '#007bff',
-  //   color: textColor || '#ffffff',
-  //   padding: '10px 20px',
-  //   border: 'none',
-  //   borderRadius: '5px',
-  //   cursor: 'pointer',
-  //   fontSize: '16px',
-  //   fontWeight: 'bold',
-  //   outline: 'none',
-  // };
+const Button = ({ text, onClick }) => {
 
-  // btn
 
   return (
     <div className='buttons'>

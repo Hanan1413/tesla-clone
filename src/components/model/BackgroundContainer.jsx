@@ -1,4 +1,3 @@
-// BackgroundContainer.js
 import React from 'react';
 
 const BackgroundContainer = ({ children }) => {

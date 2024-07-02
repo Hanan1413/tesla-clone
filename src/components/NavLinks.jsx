@@ -11,7 +11,7 @@ const NavLinks = () => {
       {sublinks.map((link) => {
         const { page, pageId } = link;
         // return a button to open submenu on button hover
-        // on Click set page id == p ageid
+        // on Click set page id == pageid
         return <button key={pageId}  className='nav-link'
  
         onMouseEnter={() => setPageId(pageId)}

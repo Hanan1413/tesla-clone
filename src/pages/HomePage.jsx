@@ -19,14 +19,12 @@ const HomePage = () => {
           text="*Price before incentives and savings is $47,740, excluding taxes and fees. Subject to change."
         />
 
-      {/* <section className="section"> */}
         <ModelBackGround
           header="ModelS"
           price="From $71,090*"
           backgroundImage={modelS}
           text="*Price before savings is $74,990, excluding taxes and fees. Subject to change."
         />
-      {/* </section> */}
 
     
     </div>

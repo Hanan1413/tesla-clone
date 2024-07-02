@@ -10,7 +10,6 @@ const Navbar = () => {
   const { openSidebar, setPageId, isSideBarOpen } = useGlobalContext();
 
   const handleSubmenu = (e) => {
-    // console.log(e.target)
 
     // if elemnt does not have NavLinks hide submenu
     if (!e.target.classList.contains("nav-link")) {

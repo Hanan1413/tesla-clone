@@ -278,15 +278,15 @@ nav {
   align-items: center;
 }
 
-.icons{
+.icons {
   display: none;
-  gap:20px
+  gap: 20px;
 }
 
-@media (min-width:900px) {
-  .icons{
+@media (min-width: 900px) {
+  .icons {
     display: flex;
-    gap:20px
+    gap: 20px;
   }
 }
 /* .nav-center:hover{
@@ -316,6 +316,7 @@ nav {
   justify-content: center;
   align-items: cener;
   width: 150px;
+  margin-bottom: 10px;
   margin-left: 30px;
 }
 
@@ -344,7 +345,6 @@ Hero
 .hero-center p {
   line-height: 1.5rem;
 }
-
 
 @media screen and (min-width: 992px) {
   .toggle-btn {
@@ -483,7 +483,7 @@ Nav Links
     display: grid;
     grid-template-columns: auto 1fr auto;
   }
-  .icons{
+  .icons {
     display: flex;
   }
   /* .white-background{

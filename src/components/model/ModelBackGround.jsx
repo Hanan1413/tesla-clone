@@ -1,7 +1,7 @@
 import "./ModelBackground.css";
 
 import backgroundImage from "../../assets/Homepage-Model-3.avif";
-import Button from '../button/Button' 
+import Button from "../button/Button";
 function ModelBackGround({
   backgroundImage,
   header,
@@ -10,11 +10,10 @@ function ModelBackGround({
   text,
   zIndex,
 }) {
-
   return (
     <div
       className="image-background"
-      style={{ backgroundImage: `url(${backgroundImage})`, zIndex:zIndex }}
+      style={{ backgroundImage: `url(${backgroundImage})`, zIndex: zIndex }}
     >
       <div>
         <div className="tcl-hero-content">
@@ -26,8 +25,7 @@ function ModelBackGround({
             <p>{description}</p>
           </div>
           <div className="section-btom">
-         
-              <Button  text="order Now"/>
+            <Button text="Order Now" />
 
             <p className="footer-text">{text}</p>
             <a href="#" className="link ">
